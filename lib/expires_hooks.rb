@@ -1,4 +1,4 @@
-module FooPlugin
+module ExpiresPlugin
   module Hooks
     class LayoutHook < Redmine::Hook::ViewListener
       # Delegate rendering the form elements to a partial.

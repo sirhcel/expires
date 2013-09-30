@@ -1,5 +1,5 @@
-Redmine::Plugin.register :foo do
-  name 'Foo plugin'
+Redmine::Plugin.register :expires do
+  name 'Expires'
   author 'Christian Meusel'
   description 'Simple plugin for expiring user accounts'
   version '0.0.1'
@@ -13,10 +13,10 @@ Rails.configuration.to_prepare do
   User.safe_attributes 'expires'
 
   # Pull hooks.
-  require_dependency 'foo_hooks'
+  require_dependency 'expires_hooks'
 
   # Pull and apply patch to the Redmine User class.
   require_dependency 'user'
-  require_dependency 'foo_user_patch'
-  User.send(:include, FooPlugin::Patches::UserPatch)
+  require_dependency 'expires_user_patch'
+  User.send(:include, ExpiresPlugin::Patches::UserPatch)
 end

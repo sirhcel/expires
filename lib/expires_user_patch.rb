@@ -1,4 +1,4 @@
-module FooPlugin
+module ExpiresPlugin
   module Patches
     # Patch for the Redmine User class which implements expiring date checking
     # by means of active?.

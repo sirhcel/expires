@@ -1,5 +1,5 @@
-REDMINE FOO
------------
+REDMINE EXPIRES
+---------------
 
 Test of a Redmine plugin for expiring user accounts. It adds an expiring date
 to user accounts and prevents expired accounts from logging in.
