@@ -2,7 +2,7 @@ Redmine::Plugin.register :expires do
   name 'Expires'
   author 'Christian Meusel'
   description 'Simple plugin for expiring user accounts'
-  version '0.0.1'
+  version 'development'
   # url 'http://example.com/path/to/plugin'
   # author_url 'http://example.com/about'
 end
