@@ -17,3 +17,12 @@ determine the accounts status in different ways: the AccountController refers
 to the User's active? method while the user list seems to use the Principal's
 status directly. This leads to an inconsistent presentation. For example,
 expired accounts are not shown as inactive at the list of users.
+
+
+Copyright and License
+---------------------
+
+Copyright (C) 2013 - 2014 Christian Meusel
+
+This plugin is released under the GPL v2 license. See LICENSE.txt for more
+information.
